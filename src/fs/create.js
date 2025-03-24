@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const create = async () => {
-    const filePath = path.join(__dirname, 'files', 'newFile.txt');
-    const content = '   '; 
+    const filePath = path.join(__dirname, 'files', 'fresh.txt');
+    const content = 'Im fresh and young'; 
 
     try {
         await fs.access(filePath);
