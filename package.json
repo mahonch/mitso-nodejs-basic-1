@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "start": "MITSO_user=admin MITSO_password=1234 node your-script.js",
     "cli:args": "node src/cli/args.js --some-arg value1 --other 1337 --arg2 42",
     "cli:env": "npx cross-env SOME=any MITSO_foo=bar MITSO_bar=baz node src/cli/env.js",
     "cp": "node src/cp/cp.js",
